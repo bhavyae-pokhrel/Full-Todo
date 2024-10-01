@@ -59,7 +59,7 @@ function SignUp() {
 
    // ! Using Axios
 
-   await axios.post("http://localhost:5000/api/v1/addUser",formData)
+   await axios.post("mongodb+srv://bhavyaeprasadpokhrel:VUwalom0MrBlLkOe@cluster0.spbza.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0/api/v1/addUser",formData)
     .then((response)=>{
      console.log(response);
 

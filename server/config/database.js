@@ -1,7 +1,7 @@
 const mongoose=require("mongoose")
 
 const dbConnect=()=>{
-  mongoose.connect("mongodb://localhost:27017/Full-Todo",{
+  mongoose.connect("mongodb+srv://bhavyaeprasadpokhrel:VUwalom0MrBlLkOe@cluster0.spbza.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0/Todo",{
 
   })
   .then(()=>{

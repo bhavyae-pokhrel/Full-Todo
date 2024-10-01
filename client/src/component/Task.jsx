@@ -14,7 +14,7 @@ function Task({collection}) { // collection ka data comes from API so it have _i
   const remove= async(id)=>{ // id of task
     if(id){
       console.log(id)
-      await axios.delete(`http://localhost:5000/api/v1/deleteTask/${id}`)
+      await axios.delete(`mongodb+srv://bhavyaeprasadpokhrel:VUwalom0MrBlLkOe@cluster0.spbza.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0/api/v1/deleteTask/${id}`)
       //await axios.delete(`http://localhost:5000/api/v1/deleteTask/${id}`,{data:{id:id}})
 
       .then((response)=>{
