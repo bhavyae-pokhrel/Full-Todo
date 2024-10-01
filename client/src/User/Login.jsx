@@ -54,7 +54,7 @@ function Login() {
     // ! Using Axios' VUwalom0MrBlLkOe
     //mongodb+srv://bhavyaeprasadpokhrel:VUwalom0MrBlLkOe@cluster0.spbza.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
 
-    await axios.post("mongodb+srv://bhavyaeprasadpokhrel:VUwalom0MrBlLkOe@cluster0.spbza.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0/api/v1/login",loginData) //http://localhost:5000
+    await axios.post("http://localhost:5000/api/v1/login",loginData) //http://localhost:5000
     .then((response)=>{
     
       console.log(response) //* Using this, Check where id present in API                       

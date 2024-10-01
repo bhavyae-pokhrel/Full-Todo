@@ -19,7 +19,7 @@ function UpdateTask({display,toUpdateArray}) {
 
   const submit=async()=>{
     console.log(changeValue)
-    await axios.put(`mongodb+srv://bhavyaeprasadpokhrel:VUwalom0MrBlLkOe@cluster0.spbza.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0/api/v1/updateTask/${toUpdateArray._id}`,changeValue)
+    await axios.put(`http://localhost:5000/api/v1/updateTask/${toUpdateArray._id}`,changeValue)
      .then((response)=>{
       console.log(response)
       toast.success(response.data.message)
