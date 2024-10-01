@@ -11,6 +11,6 @@ const dbConnect=()=>{
     console.log('DB is not connect',error.message)
   })
   
-}
+} 
  
 module.exports=dbConnect  
