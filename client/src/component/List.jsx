@@ -17,7 +17,7 @@ function List(){
          }
          else{
             if(id){
-              await axios.post("http://localhost:5000/api/v1/addTask",{id:id,title:title,body:body})
+              await axios.post("https://todo-backend-irj3.onrender.com/api/v1/addTask",{id:id,title:title,body:body})
               .then((response)=>{
                  // console.log(response)
                   console.log(response.data.message) 

@@ -59,7 +59,7 @@ function SignUp() {
 
    // ! Using Axios
 
-   await axios.post("http://localhost:5000/api/v1/addUser",formData)
+   await axios.post("https://todo-backend-irj3.onrender.com/api/v1/addUser",formData)
     .then((response)=>{
      console.log(response);
 
