@@ -4,13 +4,6 @@ const app=express();
     
 app.use(express.json())
 require("dotenv").config()
- 
-// app.use(  
-//     cors({ 
-//         origin:"*", 
-//     })
-// )
-
 
 const allowedOrigins = ['https://todo-frontend-liart-alpha.vercel.app'];
 
