@@ -17,7 +17,7 @@ app.use("/api/v1",router)
 const dbConnect=require("./config/database");
 dbConnect()
 
-app.get("/",(res,req)=>{   
+app.get("/",(req,res)=>{   
    res.send(`<h1>TODO-LIST BACKEND</h1>`)
 })
 
