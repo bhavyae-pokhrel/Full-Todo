@@ -3,7 +3,7 @@ import Login from './User/Login'
 import Signup from './User/Signup'
 import './App.css'
 import List from "./component/List"
-import Navbar from "./navbar/navbar"
+import Navbar from "./Navbar/Navbar"
 import { useEffect } from "react"
 import { useDispatch } from "react-redux"
 import { authAction } from "./store"
